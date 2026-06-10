@@ -4,7 +4,7 @@
 // Used by both client and server to ensure type-safe event handling.
 // ============================================================================
 
-import type { GameSettings, LobbyPlayer, RoomInfo } from './game';
+import type { GameSettings, LobbyPlayer, RoomInfo } from './game.js';
 
 // ---------------------------------------------------------------------------
 // Client → Server event payloads
