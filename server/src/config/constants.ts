@@ -22,6 +22,7 @@ export const PORT = parseInt(process.env.PORT || '3001', 10);
 export const CORS_ORIGINS = process.env.CORS_ORIGINS?.split(',') || [
   'http://localhost:5173', // Vite dev server default
   'http://localhost:3000',
+  'https://number-battle.vercel.app',
 ];
 
 /** Maximum rooms a single IP can create (DoS mitigation) */
